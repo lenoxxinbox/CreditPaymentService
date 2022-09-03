@@ -2,14 +2,14 @@ public class Main {
     public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService();
 
-        System.out.println("При сумме кредита 1 000 000 р сроком на 1 год ежемесячный аннуитентный платеж составляет: ");
-        System.out.println(Math.round(service.calculate(9.99, 12, 1_000_000)) + " рублей");
+        System.out.println("РџСЂРё СЃСѓРјРјРµ РєСЂРµРґРёС‚Р° 1 000 000 СЂ СЃСЂРѕРєРѕРј РЅР° 1 РіРѕРґ РµР¶РµРјРµСЃСЏС‡РЅС‹Р№ Р°РЅРЅСѓРёС‚РµРЅС‚РЅС‹Р№ РїР»Р°С‚РµР¶ СЃРѕСЃС‚Р°РІР»СЏРµС‚: ");
+        System.out.println(Math.round(service.calculate(9.99, 12, 1_000_000)) + " СЂСѓР±Р»РµР№");
         System.out.println();
-        System.out.println("При сумме кредита 1 000 000 р сроком на 2 года ежемесячный аннуитентный платеж составляет: ");
-        System.out.println(Math.round(service.calculate(9.99, 24, 1_000_000)) + " рублей");
+        System.out.println("РџСЂРё СЃСѓРјРјРµ РєСЂРµРґРёС‚Р° 1 000 000 СЂ СЃСЂРѕРєРѕРј РЅР° 2 РіРѕРґР° РµР¶РµРјРµСЃСЏС‡РЅС‹Р№ Р°РЅРЅСѓРёС‚РµРЅС‚РЅС‹Р№ РїР»Р°С‚РµР¶ СЃРѕСЃС‚Р°РІР»СЏРµС‚: ");
+        System.out.println(Math.round(service.calculate(9.99, 24, 1_000_000)) + " СЂСѓР±Р»РµР№");
         System.out.println();
-        System.out.println("При сумме кредита 1 000 000 р сроком на 3 года ежемесячный аннуитентный платеж составляет: ");
-        System.out.println(Math.round(service.calculate(9.99, 36, 1_000_000)) + " рублей");
+        System.out.println("РџСЂРё СЃСѓРјРјРµ РєСЂРµРґРёС‚Р° 1 000 000 СЂ СЃСЂРѕРєРѕРј РЅР° 3 РіРѕРґР° РµР¶РµРјРµСЃСЏС‡РЅС‹Р№ Р°РЅРЅСѓРёС‚РµРЅС‚РЅС‹Р№ РїР»Р°С‚РµР¶ СЃРѕСЃС‚Р°РІР»СЏРµС‚: ");
+        System.out.println(Math.round(service.calculate(9.99, 36, 1_000_000)) + " СЂСѓР±Р»РµР№");
 
     }
 }
